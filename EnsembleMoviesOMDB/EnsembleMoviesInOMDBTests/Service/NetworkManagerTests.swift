@@ -15,7 +15,7 @@ final class NetworkManagerTests: XCTestCase {
         return URLSession(configuration: configuration)
     }()
 
-    lazy var sut_networkManager: NetworkManager = {
+    lazy var sutNetworkManager: NetworkManager = {
         NetworkManager(session: session)
     }()
 
@@ -36,7 +36,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, mockData, nil)
         }
 
-        sut_networkManager.fetchMovies(withTitle: "bat", completion: { response in
+        sutNetworkManager.fetchMovies(withTitle: "bat", completion: { response in
             switch response {
             case .success(let search):
                 XCTAssertNotNil(search)
@@ -63,7 +63,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, mockInvalidJson, nil)
         }
 
-        sut_networkManager.fetchMovies(withTitle: "bat", completion: { response in
+        sutNetworkManager.fetchMovies(withTitle: "bat", completion: { response in
             switch response {
             case .success(let search):
                 XCTAssertNil(search, "Result should be nil")
@@ -85,7 +85,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, nil, FetchError.invalidResponse)
         }
 
-        sut_networkManager.fetchMovies(withTitle: "bat", completion: { response in
+        sutNetworkManager.fetchMovies(withTitle: "bat", completion: { response in
             switch response {
             case .success(let imageData):
                 XCTAssertNil(imageData, "Should be nil")
@@ -106,7 +106,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, nil, nil)
         }
 
-        sut_networkManager.fetchMovies(withTitle: "bat", completion: { response in
+        sutNetworkManager.fetchMovies(withTitle: "bat", completion: { response in
             switch response {
             case .success(let imageData):
                 XCTAssertNil(imageData, "Should be nil")
@@ -130,7 +130,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, mockData, nil)
         }
 
-        sut_networkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
+        sutNetworkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
                                         completion: { response in
             switch response {
             case .success(let imageData):
@@ -152,7 +152,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, nil, nil)
         }
 
-        sut_networkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
+        sutNetworkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
                                         completion: { response in
             switch response {
             case .success(let imageData):
@@ -174,7 +174,7 @@ final class NetworkManagerTests: XCTestCase {
             return (response, nil, FetchError.invalidResponse)
         }
 
-        sut_networkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
+        sutNetworkManager.fetchMoviePoster(imageURL: "http://img.omdbapi.com/?apikey=36d78389&i=tt0096895",
                                         completion: { response in
             switch response {
             case .success(let imageData):

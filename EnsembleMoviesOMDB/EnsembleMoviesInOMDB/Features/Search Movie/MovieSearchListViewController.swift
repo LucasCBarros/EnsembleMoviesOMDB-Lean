@@ -166,6 +166,7 @@ extension MovieSearchListViewController {
     func additionalTableViewConfig() {
         movieTableView.dataSource = self
         movieTableView.delegate = self
-        movieTableView.register(MovieSearchTableViewCell.self, forCellReuseIdentifier: "MovieSearchTableViewCell")
+        movieTableView.register(MovieSearchTableViewCell.self,
+                                forCellReuseIdentifier: "MovieSearchTableViewCell")
     }
 }

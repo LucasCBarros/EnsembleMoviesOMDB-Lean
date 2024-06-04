@@ -11,20 +11,20 @@ import XCTest
 final class MovieSearchListViewModelTests: XCTestCase {
     // MARK: Propeties
     var networkManager: NetworkManagerMock!
-    var sut_viewModel: MovieSearchListViewModel!
+    var sutViewModel: MovieSearchListViewModel!
     var viewController: MovieSearchListViewController?
 
     // MARK: SetUp & TearDown
     override func setUp() {
         networkManager = NetworkManagerMock()
-        sut_viewModel = MovieSearchListViewModel(movies: [],
+        sutViewModel = MovieSearchListViewModel(movies: [],
                                              networkManager: networkManager)
-        viewController = MovieSearchListViewController(viewModel: sut_viewModel)
+        viewController = MovieSearchListViewController(viewModel: sutViewModel)
     }
 
     override func tearDown() {
         networkManager = nil
-        sut_viewModel = nil
+        sutViewModel = nil
     }
     // MARK: Search Movie with success
     func testSearchMovieWithSuccess() {
@@ -33,7 +33,7 @@ final class MovieSearchListViewModelTests: XCTestCase {
         let searchTitle = "batman"
 
         // WHEN
-        sut_viewModel?.networkManager.fetchMovies(withTitle: searchTitle, completion: { response in
+        sutViewModel?.networkManager.fetchMovies(withTitle: searchTitle, completion: { response in
             switch response {
             case .success(let search):
                 // THEN
@@ -54,7 +54,7 @@ final class MovieSearchListViewModelTests: XCTestCase {
         let searchTitle = "batman"
 
         // WHEN
-        sut_viewModel?.networkManager.fetchMovies(withTitle: searchTitle, completion: { response in
+        sutViewModel?.networkManager.fetchMovies(withTitle: searchTitle, completion: { response in
             switch response {
             case .success(let search):
                 // THEN
@@ -71,14 +71,14 @@ final class MovieSearchListViewModelTests: XCTestCase {
     func testSearchMovieWithEmptyStringAlert() {
         // GIVEN
         networkManager?.setReturnError(false)
-        sut_viewModel = MovieSearchListViewModel(movies: [],
+        sutViewModel = MovieSearchListViewModel(movies: [],
                                              networkManager: networkManager)
-        viewController = MovieSearchListViewController(viewModel: sut_viewModel)
+        viewController = MovieSearchListViewController(viewModel: sutViewModel)
         let searchText = ""
 
         // WHEN
         UIApplication.shared.windows.first?.rootViewController = viewController
-        sut_viewModel?.fetchMovies(with: searchText)
+        sutViewModel?.fetchMovies(with: searchText)
 
         // THEN
         let exp = expectation(description: "Test after 1.5 second wait")
@@ -98,14 +98,14 @@ final class MovieSearchListViewModelTests: XCTestCase {
     func testSearchMovieWithSmallStringAlert() {
         // GIVEN
         networkManager?.setReturnError(false)
-        sut_viewModel = MovieSearchListViewModel(movies: [],
+        sutViewModel = MovieSearchListViewModel(movies: [],
                                              networkManager: networkManager)
-        viewController = MovieSearchListViewController(viewModel: sut_viewModel)
+        viewController = MovieSearchListViewController(viewModel: sutViewModel)
         let searchText = "12"
 
         // WHEN
         UIApplication.shared.windows.first?.rootViewController = viewController
-        sut_viewModel?.fetchMovies(with: searchText)
+        sutViewModel?.fetchMovies(with: searchText)
 
         // THEN
         let exp = expectation(description: "Test after 1.5 second wait")
@@ -137,9 +137,9 @@ final class MovieSearchListViewModelTests: XCTestCase {
             networkManager = NetworkManagerMock(shouldReturnError: true)
             networkManager?.setReturnError(true, with: error)
 
-            sut_viewModel = MovieSearchListViewModel(movies: [],
+            sutViewModel = MovieSearchListViewModel(movies: [],
                                                  networkManager: networkManager)
-            viewController = MovieSearchListViewController(viewModel: sut_viewModel)
+            viewController = MovieSearchListViewController(viewModel: sutViewModel)
 
             UIApplication.shared.windows.first?.rootViewController = viewController
             viewController?.viewModel.fetchMovies(with: "batman")
@@ -160,9 +160,9 @@ final class MovieSearchListViewModelTests: XCTestCase {
     func testUpdateTableViewWithMovies() {
         // GIVEN
         networkManager = NetworkManagerMock(shouldReturnError: false)
-        sut_viewModel = MovieSearchListViewModel(movies: [],
+        sutViewModel = MovieSearchListViewModel(movies: [],
                                              networkManager: networkManager)
-        viewController = MovieSearchListViewController(viewModel: sut_viewModel)
+        viewController = MovieSearchListViewController(viewModel: sutViewModel)
 
         XCTAssertEqual(viewController?.viewModel.movies.count, 0,
                        "movies inside viewModel shouldn't have any movies")

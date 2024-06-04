@@ -11,7 +11,7 @@ import XCTest
 final class MovieSearchListViewControllerTests: XCTestCase {
 
     // MARK: Test config properties
-    var sut_viewController: MovieSearchListViewController?
+    var sutViewController: MovieSearchListViewController?
     var viewModel: MovieSearchListViewModel!
     var networkManager: NetworkManagerMock!
 
@@ -20,11 +20,11 @@ final class MovieSearchListViewControllerTests: XCTestCase {
         networkManager = NetworkManagerMock()
         viewModel = MovieSearchListViewModel(movies: [],
                                              networkManager: networkManager)
-        sut_viewController = MovieSearchListViewController(viewModel: viewModel)
+        sutViewController = MovieSearchListViewController(viewModel: viewModel)
     }
 
     override func tearDown() {
-        sut_viewController = nil
+        sutViewController = nil
         viewModel = nil
         networkManager = nil
     }
@@ -33,19 +33,19 @@ final class MovieSearchListViewControllerTests: XCTestCase {
     func testTapSearchButton() {
         // GIVEN
         let searchString = "batman"
-        guard let initialText = sut_viewController?.searchTextField.text else {
+        guard let initialText = sutViewController?.searchTextField.text else {
             XCTFail("SearchField is nil")
             return }
         XCTAssertTrue(initialText.isEmpty, "Field should start empty")
-        XCTAssertEqual(sut_viewController?.viewModel.movies.count, 0,
+        XCTAssertEqual(sutViewController?.viewModel.movies.count, 0,
                        "Movies list should start empty")
 
         // WHEN
-        sut_viewController?.searchTextField.text = searchString
-        sut_viewController?.tapSearchButton()
+        sutViewController?.searchTextField.text = searchString
+        sutViewController?.tapSearchButton()
 
         // THEN
-        XCTAssertEqual(sut_viewController?.viewModel.movies.count, 3,
+        XCTAssertEqual(sutViewController?.viewModel.movies.count, 3,
                        "Movies list should be loaded with the search result")
     }
 }

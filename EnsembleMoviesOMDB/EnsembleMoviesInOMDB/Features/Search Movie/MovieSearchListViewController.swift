@@ -11,7 +11,6 @@ import UIKit
 class MovieSearchListViewController: UIViewController {
     // MARK: Views
     let searchTextField = UITextField()
-    let searchButton = UIButton()
     let movieTableView = UITableView()
 
     // MARK: Properties
@@ -95,7 +94,6 @@ extension MovieSearchListViewController: ViewCodable {
     func addHierarchy() {
         self.view.addSubviews([
             searchTextField,
-            searchButton,
             movieTableView])
     }
 
@@ -120,15 +118,9 @@ extension MovieSearchListViewController {
     func addSearchBarConstraints() {
         searchTextField
             .topToSuperview(toSafeArea: true)
-            .leadingToSuperview(25)
+            .widthToSuperview(-50)
+            .centerHorizontalToSuperView()
             .heightTo(30)
-
-        searchButton
-            .leadingToTrailing(of: searchTextField, margin: 15)
-            .trailingToSuperview(25)
-            .widthTo(100)
-            .topToTop(of: searchTextField)
-            .heightOf(searchTextField)
     }
 
     func additionalSearchBarConfig() {
@@ -144,12 +136,6 @@ extension MovieSearchListViewController {
         searchTextField.addTarget(self,
                                   action: #selector(executeAction),
                                   for: .editingChanged)
-
-        searchButton.setTitle("Search", for: .normal)
-        searchButton.setTitleColor(.white, for: .normal)
-        searchButton.backgroundColor = .systemBlue
-        searchButton.layer.cornerRadius = 5
-        searchButton.addTarget(self, action: #selector(tapSearchButton), for: .touchUpInside)
     }
 }
 

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "quickuikitdevtools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LucasCBarros/QuickUIKitDevTools.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "923be7dae390f18ee8ab4aa92f474ebd2e2fed8a"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A5D7F67-E40C-47A6-A029-D656A3044158"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B6FCF76-0CF5-474E-BB64-83BAA8B7EECC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46F8467C-4167-4872-A6E0-2610EF965337"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4BCCDAC-3457-49C4-A41D-0C0FC005779E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAB1314F-BFF1-411C-A51D-8A83D1F9FD9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BF73093-BEE6-408D-A23C-CAAF6EAAAF92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchPeople(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3BF73093-BEE6-408D-A23C-CAAF6EAAAF92 - 349ad67cbf16da05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmsembleMoviesInOMDB.NetworkManager.fetchPeople(completion: (Swift.Result&lt;EmsembleMoviesInOMDB.Movie, EmsembleMoviesInOMDB.FetchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "419">
+               </Location>
+               <Location
+                  uuid = "3BF73093-BEE6-408D-A23C-CAAF6EAAAF92 - fd26945ed25be555"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EmsembleMoviesInOMDB.NetworkManager.fetchPeople(completion: (Swift.Result&lt;EmsembleMoviesInOMDB.Movie, EmsembleMoviesInOMDB.FetchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "3BF73093-BEE6-408D-A23C-CAAF6EAAAF92 - 349ad67cbf16da05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmsembleMoviesInOMDB.NetworkManager.fetchPeople(completion: (Swift.Result&lt;EmsembleMoviesInOMDB.Movie, EmsembleMoviesInOMDB.FetchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "189">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD19FBBA-4B18-40D6-A63B-CB6F80F7178E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchPeople(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD19FBBA-4B18-40D6-A63B-CB6F80F7178E - fd26945ed25be5b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EmsembleMoviesInOMDB.NetworkManager.fetchPeople(completion: (Swift.Result&lt;EmsembleMoviesInOMDB.Movie, EmsembleMoviesInOMDB.FetchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  uuid = "DD19FBBA-4B18-40D6-A63B-CB6F80F7178E - 349ad67cbf16dae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmsembleMoviesInOMDB.NetworkManager.fetchPeople(completion: (Swift.Result&lt;EmsembleMoviesInOMDB.Movie, EmsembleMoviesInOMDB.FetchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "207">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - 7ce800145980140d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "254">
+               </Location>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - 79b462659fb5e839"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - d7609ad84369c09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - f58f0d8e2a1dd8f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - 67135e2d97033724"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "3B49B1DF-C51B-4E12-A136-9FEF3B1D3501 - 7ce800145980140d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A54A8F7A-3548-4D81-B9A5-B28512685FA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A54A8F7A-3548-4D81-B9A5-B28512685FA4 - d7609ad84369d94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "A54A8F7A-3548-4D81-B9A5-B28512685FA4 - 7ce80014598015ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for EmsembleMoviesInOMDB.NetworkManager.getUser() async throws -&gt; EmsembleMoviesInOMDB.Movie"
+                  moduleName = "EmsembleMoviesInOMDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucascbarros/Desktop/EmsembleMoviesInOMDB/EmsembleMoviesInOMDB/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "125">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9DBD53F-A861-4B3C-B36E-500E764F87D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnsembleMoviesInOMDBTests/Features/Movie Detail/MovieDetailViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "testUpdateViewWithImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E0E7270-67B2-4660-8C8B-52DAD3420FAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnsembleMoviesInOMDBTests/Features/Movie Detail/MovieDetailViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "testUpdateViewWithImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCCF50B7-F185-4C3E-9C34-72DE9AFCC5DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnsembleMoviesInOMDB/Features/Movie Detail/MovieDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "641D532F-01F0-40EE-A31F-8AAC5DA43D02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnsembleMoviesInOMDB/Features/Search Movie/MovieSearchListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20E1358D-36D3-4773-B9C8-BA22599A97F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnsembleMoviesInOMDB/Features/Search Movie/MovieSearchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "fetchAllMoviePosters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
